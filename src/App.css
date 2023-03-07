@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App input[type="text"] {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #c6e3fa;
+  margin: 0;
+  padding: 0.6em 0.9em;
+  border-radius: 0.7em;
+  flex-grow: 1;
+  font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
+  overflow: visible;
+  color: rgba(0, 0, 0, .87);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.chat-container {
+  max-width: calc(100% - 300px);
+  /* set the maximum width to 100% minus the width of the ConversationList */
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
