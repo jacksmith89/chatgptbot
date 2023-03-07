@@ -13,7 +13,7 @@ import {
   TypingIndicator,
 } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY = "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";
+const API_KEY = "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";
 
 // "system" -> generally one initial message defining how we want the chatbot to behave
 const systemMessage = {
